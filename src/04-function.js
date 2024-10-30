@@ -9,8 +9,12 @@
  * const message = generateMessage("Jack", 25); // "Hey Jack, happy 25 birthday!"
  */
 function generateMessage(name, age) {
-
+    let personName = "Jack";
+    let personAge = 25;
+    return  "Hey " + personName + ", happy" + personAge + " birthday!"
 }
+console.log(generateMessage())
+
 
 /**
  * This function capitalizes the first letter of every word in a sentence.
@@ -22,8 +26,13 @@ function generateMessage(name, age) {
  * const title = titleCase("hello world"); // title will be "Hello World"
  */
 function titleCase(sentence) {
+    return sentence.charAt(0).toUpperCase() + sentence.slice(1)
 
 }
+// Jeg fandt det her: function capitalizeFirstLetter(string) {
+//   return string.replace(/^./, string[0].toUpperCase())
+// }  På noget der hedder coreui.io
+
 
 /**
  * This function returns the sum of a range of numbers in an array.
@@ -35,9 +44,12 @@ function titleCase(sentence) {
  * Usage:
  * const sum = sumOfRange(1, 4); // sum will be 10
  */
+let sum;
 function sumOfRange(start, end) {
-
+    sum = start + end;
+    return sum;
 }
+sum = sumOfRange(1, 4)
 
 
 /**

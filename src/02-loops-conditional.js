@@ -10,8 +10,16 @@
  */
 
 function isEven(number) {
+    let n = 6;
+    if (number % 2 === 0)  {
+        return true
+    } else {
+        return false
+    }
 
 }
+
+// Jeg fandt det her: (number % 2 == 0) på en sidde der hedder progamiz
 
 /**
  * This function checks if a number is within a range.
@@ -43,7 +51,16 @@ function isWithinRange(n, min, max) {
  */
 
 function stringContainsBa(string) {
+    const strngBanana = "banana"
+    const strngHarbor = "harbor"
+    const strngHabanana = "Habanana"
+    const strngContain = "ba"
 
+    if (string.includes(strngContain)){
+        return true
+    } else {
+        return false
+    }
 }
 
 

@@ -8,8 +8,11 @@
  * console.log(coolestTeacher); // Benjamin
  */
 function getCoolestTeacher() {
-    
+    const coolestTeacher = "Benjamin"
+    console.log(coolestTeacher)
+    return coolestTeacher
 }
+
 
 /**
  * This function multiplies two numbers and then adds a third number.
@@ -24,6 +27,8 @@ function getCoolestTeacher() {
  * const anotherResult = multiplyAndAdd(-1, 1, 2); // anotherResult will be 1
  */
 function multiplyAndAdd(a, b, c) {
+    let result = (a * b) + c;
+    return result
 
 }
 
@@ -53,6 +58,7 @@ function determineType(value) {
  */
 
 function concatenateStringsWithSpace(a, b) {
+    return a + ' ' + b
 
 }
 
@@ -71,8 +77,10 @@ function concatenateStringsWithSpace(a, b) {
  */
 
 function toUpperCaseWithSmiley(str) {
+    return str.toUpperCase() + ':)'
 
 }
+console.log(toUpperCaseWithSmiley("hello"))
 
 /**
  * This function repeats a string a specified number of times with spaces in between.
